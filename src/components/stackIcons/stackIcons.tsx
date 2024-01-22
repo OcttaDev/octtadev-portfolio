@@ -15,6 +15,10 @@ import { TbBrandPrisma } from "react-icons/tb";
 import { TbBrandFirebase } from "react-icons/tb";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { TbBrandMysql } from "react-icons/tb";
+import { FaAngular } from "react-icons/fa6";
+import { SiFastify } from "react-icons/si";
+import { SiDevexpress } from "react-icons/si";
+import { FaFigma } from "react-icons/fa";
 
 function StackIcons() {
   return (
@@ -23,12 +27,16 @@ function StackIcons() {
       <FaCss3Alt size={30} />
       <RiJavascriptFill size={30} />
       <FaBootstrap size={30} />
+      <FaFigma size={30} />
       <LiaReact size={30} />
+      <FaAngular size={30} />
       <SiTailwindcss size={30} />
       <SiStyledcomponents size={30} />
       <SiMui size={30} />
       <BiLogoTypescript size={30} />
       <FaNodeJs size={30} />
+      <SiFastify size={30} />
+      <SiDevexpress size={30} />
       <SiNextdotjs size={30} />
       <TbBrandPrisma size={30} />
       <TbBrandFirebase size={30} />

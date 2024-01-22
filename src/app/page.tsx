@@ -10,7 +10,7 @@ import StackIcons from "@/components/stackIcons/stackIcons";
 
 function Home() {
   return (
-    <main className="space-y-20 h-screen">
+    <main className="space-y-16 h-screen">
       <Header />
       <section className="flex flex-col items-center gap-10 w-full">
         <div className="flex flex-col items-center gap-10 w-[80%]">
@@ -74,7 +74,7 @@ function Home() {
           />
           <Container
             title="Marli PLM"
-            paragraph="Um sistema abrangente de gerenciamento de cadastros com backend em Next.js, banco de dados próprio e integração ao Firebase. Oferece controle avançado de cadastros e apresenta uma interface visual moderna usando Tailwind CSS."
+            paragraph="Um sistema abrangente de gerenciamento de cadastros com backend em Next.js, banco de dados próprio e integração ao Firebase. Oferece controle avançado de cadastros e apresenta uma interface visual moderna usando Tailwind CSS. Obs: Por motivos de privacidade, a cliente não autorizou o link de acesso ao projeto."
             imageUrl="/images/marliplm.png"
           />
           <Container

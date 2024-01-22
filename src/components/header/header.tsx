@@ -7,7 +7,7 @@ function Header() {
     <header className="flex justify-center h-full w-full" id="home">
       <div className="flex flex-col gap-10 w-[80%] h-[80%] bg-white mt-10 rounded-3xl shadow-2xl shadow-black/30">
         <NavBar />
-        <div className="flex flex-col lg:flex-row justify-around items-center gap-5 w-full lg:mt-16 mt-0">
+        <div className="flex flex-col lg:flex-row justify-around items-center gap-5 w-full mt-16">
           <div className="flex flex-col gap-10 items-center lg:items-start">
             <div className="flex flex-col gap-2 text-center lg:text-start">
               <p className="text-sm *:lg:text-md">
