@@ -46,7 +46,7 @@ function Sidebar() {
               Projects
             </a>
             <a
-              href="#"
+              href="https://api.whatsapp.com/send?phone=5583996032341"
               className="bg-transparent text-gray-500 hover:bg-transparent rounded-none focus:border-b-2"
             >
               Let´s Talk
