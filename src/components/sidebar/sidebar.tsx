@@ -23,17 +23,36 @@ function Sidebar() {
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
-          <SheetTitle>Edit profile</SheetTitle>
-          <SheetDescription>
-            Make changes to your profile here. Click save when you're done.
-          </SheetDescription>
+          <SheetTitle>OcttaDev</SheetTitle>
         </SheetHeader>
-        <div className="grid gap-4 py-4"></div>
-        <SheetFooter>
-          <SheetClose asChild>
-            <Button type="submit">Save changes</Button>
-          </SheetClose>
-        </SheetFooter>
+        <div className="grid gap-4 py-4">
+          <ul className="flex flex-col items-center gap-20 mt-10">
+            <a
+              href="#home"
+              className="bg-transparent text-gray-500 hover:bg-transparent rounded-none focus:border-b-2"
+            >
+              Home
+            </a>
+            <a
+              href="#about-me"
+              className="bg-transparent text-gray-500 hover:bg-transparent rounded-none focus:border-b-2"
+            >
+              About-me
+            </a>
+            <a
+              href="#projects"
+              className="bg-transparent text-gray-500 hover:bg-transparent rounded-none focus:border-b-2"
+            >
+              Projects
+            </a>
+            <a
+              href="#"
+              className="bg-transparent text-gray-500 hover:bg-transparent rounded-none focus:border-b-2"
+            >
+              Let´s Talk
+            </a>
+          </ul>
+        </div>
       </SheetContent>
     </Sheet>
   );
