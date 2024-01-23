@@ -84,7 +84,12 @@ function Home() {
             paragraph="Uma landing page exclusiva focada em loteamentos, cuidadosamente projetada com botões de ação estrategicamente posicionados e chamadas visuais em todo o layout. A página inclui um formulário de contato intuitivo para facilitar a comunicação e apresenta imagens envolventes que destacam a beleza do ambiente. Obs: Por motivos de privacidade, não recebemos a autorização de expor alguns dados sobre o ambiente."
             imageUrl="/images/rpv.png"
           />
-
+          <Container
+            title="Landingpage consultoria web"
+            path="https://consultoria-oc.vercel.app/"
+            paragraph="Uma landing page exclusiva focada em consultoria, cuidadosamente projetada com botões de ação estrategicamente posicionados e chamadas visuais em todo o layout. A página inclui um formulário de contato intuitivo para facilitar a comunicação. Aplicação feita em Angular"
+            imageUrl="/images/consultoriakipperlp.png"
+          />
           <Container
             title="Landing Page App IeadMPS"
             paragraph="Uma landing page com inspiração em blogs, equipada com uma área de administração para gerenciar o conteúdo da página principal. O objetivo é direcionar e destacar de maneira eficaz o aplicativo da instituição, proporcionando uma experiência atraente e informativa, levando o usuário final a baixar o app."
